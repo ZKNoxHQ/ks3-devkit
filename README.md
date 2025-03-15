@@ -79,6 +79,8 @@ In this case, the exploit just calls [SetUpdatePubKey](https://github.com/Keysto
 
 Note that this works because FreeRTOS supports static timers, no memory protection is set and all areas are executable.
 
+## Disclosure Timeline
+
 19.08.24 : Vulnerability reported
 
 21.08.24 : Discussion with Keystone team, agreement to release early 2025
