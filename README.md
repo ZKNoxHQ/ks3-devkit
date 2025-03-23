@@ -2,7 +2,7 @@
 
 This project provides quick & dirty very unofficial tools to turn your Keystone 3 Pro into a developer unit if it runs the right firmware (1.2.2 / 1.2.4 at the moment)
 
-Python scripts are supposed to run in an environment with pyusb and secp256k1 packages installed
+Python scripts are supposed to run in an environment with pyusb, quicklz and secp256k1 packages installed
 
 ## Generating a firmware update key
 
