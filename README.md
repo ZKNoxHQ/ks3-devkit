@@ -1,6 +1,6 @@
 # Keystone3 development kit 
 
-This project provides quick & dirty very unofficial tools to turn your Keystone 3 Pro into a developer unit if it runs the right firmware (1.2.2 / 1.2.4 at the moment)
+This project provides quick & dirty very unofficial tools to turn your Keystone 3 Pro into a developer unit if it runs the right firmware (1.2.2 / 1.2.4 at the moment) - it's fixed in 1.2.6 (see details below)
 
 Python scripts are supposed to run in an environment with pyusb, quicklz and secp256k1 packages installed
 
