@@ -93,7 +93,3 @@ Note that this works because FreeRTOS supports static timers, no memory protecti
 
 Enjoy, please only use this for educational/research purposes and don't blame me if you brick your device, thank you :)
 
-BTC tips : bc1qrd4jq367s299va3a97n09fvcde4hfr7heltqt4
-
-EVM tips : btchip.sismo.eth
-
