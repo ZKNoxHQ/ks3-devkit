@@ -33,8 +33,10 @@ f.read(1)
 compressedFirmware = f.read()
 f.close()
 
-signatureBlock = headerData[-256:]
-headerData = headerData[:-256]
+signatureLength = 256 if headerLen > 0xdc else 128
+
+signatureBlock = headerData[-signatureLength:]
+headerData = headerData[:-signatureLength]
 fileSize = struct.unpack(">I", headerData[len(HEADER_MAGIC) : len(HEADER_MAGIC) + 4])[0]
 
 state = quicklz.QLZStateDecompress()
